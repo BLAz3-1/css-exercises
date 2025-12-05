@@ -15,12 +15,6 @@ body {
   justify-content: center;
 }
 
-.header {
-  display:flex;
-  justify-content:space-between;
-  font-weight:bold;
-}
-
 .modal {
   background: white;
   width: 480px;
@@ -45,6 +39,14 @@ body {
   margin-right:15px;
 }
 
+.header {
+  display:flex;
+  justify-content:space-between;
+  font-weight:bold;
+  align-items:center;
+  margin-bottom:6px;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
@@ -58,6 +60,10 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+}
+
+.text {
+  margin-bottom:10px;
 }
 
 button {
