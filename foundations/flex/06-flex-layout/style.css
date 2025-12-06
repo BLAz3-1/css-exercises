@@ -13,7 +13,7 @@ body {
   padding:15px;
 }
 
-.left-links {
+.header .left-links {
   display:flex;
   list-style-type:none;
   padding:0;
@@ -22,7 +22,7 @@ body {
   justify-content:space-between;
 }
 
-.right-links {
+.header .right-links {
   display:flex;
   list-style-type:none;
   padding:0;
@@ -34,6 +34,17 @@ body {
 a {
   text-decoration:none;
   color:gray;
+}
+
+.flex-container {
+  display:flex;
+  flex-direction:column;
+}
+
+.content {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
 }
 
 img {
@@ -52,4 +63,28 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+.footer {
+  display:flex;
+  justify-content:space-between;
+  padding:15px;
+}
+
+.footer .left-links {
+  display:flex;
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  flex-basis:170px;
+  justify-content:space-between;
+}
+
+.footer .right-links {
+  display:flex;
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  flex-basis:115px;
+  justify-content:space-between;
 }
