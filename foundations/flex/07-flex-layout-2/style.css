@@ -51,3 +51,12 @@ body {
   flex-basis:280px;
   border:1px solid rgb(231, 227, 227);
 }
+
+.footer {
+  display:flex;
+  padding:16px;
+  align-items:center;
+  justify-content:center;
+  background-color:rgb(226, 223, 223);
+  color:purple;
+}
