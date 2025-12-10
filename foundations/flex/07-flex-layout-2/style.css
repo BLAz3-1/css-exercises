@@ -21,7 +21,7 @@ body {
 .sidebar {
   flex-basis:300px;
   flex-shrink:0;
-  background-color:blue;
+  background-color:rgb(80, 80, 238);
 }
 
 .sidebar ul {
